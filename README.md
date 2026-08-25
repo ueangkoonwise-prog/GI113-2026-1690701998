@@ -10,7 +10,7 @@ Repository ส่วนตัวของวิชา **GI113 Computer Programmi
 ชื่อ-นามสกุล: ueangkoon wiset
 Section: 129c
 รหัสนักศึกษา: 1690701998
-เลขที่: 
+เลขที่: N/A
 ```
 
 ## กติกาการตั้งชื่อ (Naming Convention)
