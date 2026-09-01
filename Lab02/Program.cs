@@ -82,6 +82,30 @@ namespace Lab02
             Console.WriteLine($"DEFENSE : {defense}";
             Console.WriteLine($"ISHUMEN : {isHumen}");
 
+            Console.WriteLine("====== HERO 2 ======");
+            Console.WriteLine($"NAME : {hero2Name}");
+            Console.WriteLine($"HERO TIER : {heroTier}");
+            Console.WriteLine($"MAX HP : {maxHp}");
+            Console.WriteLine($"ATTACKPOWER : {attackPower}";
+            Console.WriteLine($"DEFENSE : {defense}";
+            Console.WriteLine($"ISHUMEN : {isHumen}");
+
+            Console.WriteLine("====== HERO 3 ======");
+            Console.WriteLine($"NAME : {hero3Name}");
+            Console.WriteLine($"HERO TIER : {heroTier}");
+            Console.WriteLine($"MAX HP : {maxHp}");
+            Console.WriteLine($"ATTACKPOWER : {attackPower}";
+            Console.WriteLine($"DEFENSE : {defense}";
+            Console.WriteLine($"ISHUMEN : {isHumen}");
+
+            Console.WriteLine("====== HERO 4 ======");
+            Console.WriteLine($"NAME : {hero4Name}");
+            Console.WriteLine($"HERO TIER : {heroTier}");
+            Console.WriteLine($"MAX HP : {maxHp}");
+            Console.WriteLine($"ATTACKPOWER : {attackPower}";
+            Console.WriteLine($"DEFENSE : {defense}";
+            Console.WriteLine($"ISHUMEN : {isHumen}");
+
         }
     }
 }
