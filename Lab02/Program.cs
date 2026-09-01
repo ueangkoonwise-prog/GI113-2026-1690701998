@@ -48,63 +48,63 @@ namespace Lab02
 
             string heroName = "Aiden";
             char heroTier = 'A';
-            int maxHp = 250;
-            float attackPower = 55.5f;
+            int maxHp1 = 250;
+            float attackPower1 = 55.5f;
             double defense = 15.25;
             bool isHumen = true;
 
             string hero2Name = "eve";
-            char heroTier = 'B';
-            int maxHp = 150;
-            float attackPower = 25.6f;
-            double defense = 5.5;
-            bool isHumen = false;
+            char hero2Tier = 'B';
+            int maxHp2 = 150;
+            float attackPower2 = 25.6f;
+            double defense2 = 5.5;
+            bool isHumen2 = false;
 
             string hero3Name = "issac";
-            char heroTier = 'A';
-            int maxHp = 225;
-            float attackPower = 46.5f;
-            double defense = 7.5;
-            bool isHumen = true;
+            char hero3Tier = 'A';
+            int maxHp3 = 225;
+            float attackPower3 = 46.5f;
+            double defense3 = 7.5;
+            bool isHumen3 = true;
 
             string hero4Name = "elton";
-            char heroTier = 'S';
-            int maxHp = 325;
-            float attackPower = 20.9f;
-            double defense = 26.25;
-            bool isHumen = false;
+            char hero4Tier = 'S';
+            int maxHp4 = 325;
+            float attackPower4 = 20.9f;
+            double defense4 = 26.25;
+            bool isHumen4 = false;
 
             Console.WriteLine("====== HERO 1 ======");
             Console.WriteLine($"NAME : {heroName}");
             Console.WriteLine($"HERO TIER : {heroTier}");
             Console.WriteLine($"MAX HP : {maxHp}");
-            Console.WriteLine($"ATTACKPOWER : {attackPower}";
-            Console.WriteLine($"DEFENSE : {defense}";
+            Console.WriteLine($"ATTACKPOWER : {attackPower}");
+            Console.WriteLine($"DEFENSE : {defense}");
             Console.WriteLine($"ISHUMEN : {isHumen}");
 
             Console.WriteLine("====== HERO 2 ======");
             Console.WriteLine($"NAME : {hero2Name}");
-            Console.WriteLine($"HERO TIER : {heroTier}");
-            Console.WriteLine($"MAX HP : {maxHp}");
-            Console.WriteLine($"ATTACKPOWER : {attackPower}";
-            Console.WriteLine($"DEFENSE : {defense}";
-            Console.WriteLine($"ISHUMEN : {isHumen}");
+            Console.WriteLine($"HERO TIER : {hero2Tier}");
+            Console.WriteLine($"MAX HP : {maxHp2}");
+            Console.WriteLine($"ATTACKPOWER : {attackPower2}");
+            Console.WriteLine($"DEFENSE : {defense2}");
+            Console.WriteLine($"ISHUMEN : {isHumen2}");
 
             Console.WriteLine("====== HERO 3 ======");
             Console.WriteLine($"NAME : {hero3Name}");
-            Console.WriteLine($"HERO TIER : {heroTier}");
-            Console.WriteLine($"MAX HP : {maxHp}");
-            Console.WriteLine($"ATTACKPOWER : {attackPower}";
-            Console.WriteLine($"DEFENSE : {defense}";
-            Console.WriteLine($"ISHUMEN : {isHumen}");
+            Console.WriteLine($"HERO TIER : {hero3Tier}");
+            Console.WriteLine($"MAX HP : {maxHp3}");
+            Console.WriteLine($"ATTACKPOWER : {attackPower3}");
+            Console.WriteLine($"DEFENSE : {defense3}");
+            Console.WriteLine($"ISHUMEN : {isHumen3}");
 
             Console.WriteLine("====== HERO 4 ======");
             Console.WriteLine($"NAME : {hero4Name}");
-            Console.WriteLine($"HERO TIER : {heroTier}");
-            Console.WriteLine($"MAX HP : {maxHp}");
-            Console.WriteLine($"ATTACKPOWER : {attackPower}";
-            Console.WriteLine($"DEFENSE : {defense}";
-            Console.WriteLine($"ISHUMEN : {isHumen}");
+            Console.WriteLine($"HERO TIER : {hero4Tier}");
+            Console.WriteLine($"MAX HP : {maxHp4}");
+            Console.WriteLine($"ATTACKPOWER : {attackPower4}");
+            Console.WriteLine($"DEFENSE : {defense4}");
+            Console.WriteLine($"ISHUMEN : {isHumen4}");
 
         }
     }
