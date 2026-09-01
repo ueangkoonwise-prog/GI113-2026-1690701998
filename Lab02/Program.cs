@@ -6,6 +6,7 @@
  * Course     : GI113 Computer Programming (GI)
  */
 
+using System;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Lab02
@@ -44,6 +45,42 @@ namespace Lab02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent: {hpPercent}%");
+
+            string heroName = "Aiden";
+            char heroTier = 'A';
+            int maxHp = 250;
+            float attackPower = 55.5f;
+            double defense = 15.25;
+            bool isHumen = true;
+
+            string hero2Name = "eve";
+            char heroTier = 'B';
+            int maxHp = 150;
+            float attackPower = 25.6f;
+            double defense = 5.5;
+            bool isHumen = false;
+
+            string hero3Name = "issac";
+            char heroTier = 'A';
+            int maxHp = 225;
+            float attackPower = 46.5f;
+            double defense = 7.5;
+            bool isHumen = true;
+
+            string hero4Name = "elton";
+            char heroTier = 'S';
+            int maxHp = 325;
+            float attackPower = 20.9f;
+            double defense = 26.25;
+            bool isHumen = false;
+
+            Console.WriteLine("====== HERO 1 ======");
+            Console.WriteLine($"NAME : {heroName}");
+            Console.WriteLine($"HERO TIER : {heroTier}");
+            Console.WriteLine($"MAX HP : {maxHp}");
+            Console.WriteLine($"ATTACKPOWER : {attackPower}";
+            Console.WriteLine($"DEFENSE : {defense}";
+            Console.WriteLine($"ISHUMEN : {isHumen}");
 
         }
     }
